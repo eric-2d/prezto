@@ -20,3 +20,7 @@ export PURE_PROMPT_SYMBOL=
 #export PURE_PROMPT_SYMBOL=
 export PURE_GIT_DOWN_ARROW=
 export PURE_GIT_UP_ARROW=
+
+bindkey "" _most_recent_file
+bindkey "^P" history-beginning-search-backward
+bindkey "^N" history-beginning-search-forward
